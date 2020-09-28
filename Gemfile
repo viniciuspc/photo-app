@@ -23,7 +23,13 @@ gem 'jbuilder', '~> 2.7'
 
 gem "devise"
 gem 'devise-bootstrap-views'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
 gem 'stripe'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
